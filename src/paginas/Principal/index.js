@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput, Alert, ScrollView } from 'react-native';
+
+import api from '.';
+
 import estilos from './estilos';
 
 export default function Principal({ navigation }) {
